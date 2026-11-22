@@ -1,0 +1,6 @@
+{
+  "name": "Grafino Studio",
+  "description": "From design to delivery, we've got you covered. Graphic design, web design, SEO, custom software, video production, digital marketing, and Grafino AI Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

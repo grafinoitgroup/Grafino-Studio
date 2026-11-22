@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Grafino Studio | Creative Design, Web Engineering & AI Solutions</title>
+    <meta
+      name="description"
+      content="From design to delivery, we've got you covered. Graphic design, web design, SEO, custom software, video production, digital marketing, and Grafino AI Solutions."
+    />
+    <meta property="og:title" content="Grafino Studio | Creative Design, Web Engineering & AI Solutions" />
+    <meta
+      property="og:description"
+      content="From design to delivery, we've got you covered. Graphic design, web design, SEO, custom software, video production, digital marketing, and Grafino AI Solutions."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('grafino-theme');
+          var theme = saved === 'light' ? 'light' : 'dark';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAFA] text-[#0A0A0A] dark:bg-[#050505] dark:text-white antialiased selection:bg-[#EE7104] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
